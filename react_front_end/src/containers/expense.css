@@ -1,0 +1,163 @@
+
+/* EXPENSE LIST */
+
+.container{
+  width: 80%;
+}
+
+.expense-list-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expense-list__header {
+  margin: 0;
+  padding: 0;
+}
+
+.expense-list__subheader {
+  margin: 0;
+  padding: 0;
+  color: var(--logo_yellow);
+  padding-bottom: 1rem;
+}
+
+.expense-list-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.25rem;
+  background-color: #5a975a7c;
+  border: 2px solid #80b180;
+  border-radius: 50px;
+  padding: 3rem 6rem;
+}
+
+
+.expense-item{
+  width: 100%;;
+  border-radius: 50px;
+  border: 2px solid #80b180;
+  background-color: white;
+  padding: .5rem 1.5rem;
+}
+
+.expense-item > div {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense-item > div > a {
+  color: black;
+  text-decoration: none;
+}
+
+.expense-item > div > a:hover {
+  color: var(--logo_yellow);
+}
+
+
+
+
+/* EXPENSE DETAIL */
+
+.expense-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.expense-detail__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 2rem;
+  border: 2px solid #80b180;
+  width: 80%;
+}
+
+.button-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+button {
+    background-color: #80B180;
+    border-style: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.4rem .8rem;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s ease-out;
+  }
+
+  button:hover {
+    background-color: #5a975a;
+  }
+  
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* EXPENSE FORM */
+
+.input-label {
+    font-size: var(--fs-text-sm);
+    font-weight: var(--fw-medium);
+    margin-bottom: 8px;
+  }
+  
+  input {
+    flex: 1;
+    min-width: 288px;
+    padding: 12px 14px;
+    font-family: inherit;
+    color: var(--clr-grey-500);
+    font-size: var(--fs-text-md);
+    border-radius: 50px;
+    border: 2px solid var(--background_color);
+  }
+
+  input{
+    outline-color: var(--logo_yellow);
+  }
+
+  .expense-form-container {
+    border-radius: 50px;
+    padding: 10rem;
+    background-color: #80b1807c;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 2px solid #80b180;
+  }
+
+  .dropdown {
+    flex: 1;
+    min-width: 288px;
+    padding: 12px 14px;
+    font-family: inherit;
+    color: var(--clr-grey-500);
+    font-size: var(--fs-text-md);
+    border-radius: 50px;
+    border: 2px solid var(--background_color);
+    outline-color: var(--logo_yellow);
+  }
+
+
