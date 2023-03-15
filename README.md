@@ -52,7 +52,7 @@ To run the app, you need to set up the client and server sides of the app:
   - createdb rise
 
 
-# We recommend running the server through IntelliJ IDEA and running the ServerApplication.java file.
+We recommend running the server through IntelliJ IDEA and running the ServerApplication.java file.
 
 
 # Contact
